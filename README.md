@@ -46,7 +46,7 @@ After running this new query, the median is 284 and would be a better choice for
 
 ## Question 2: 
 
-Please use queries to answer the following questions. Paste your queries along with your final numerical answers below.
+Please use queries to answer the following questions. Paste your queries along with your final numerical answers below. These queries were completed by using the data set found [here.](https://www.w3schools.com/SQL/TRYSQL.ASP?FILENAME=TRYSQL_SELECT_ALL) 
 
 A. How many orders were shipped by Speedy Express in total?
 ANSWER: Speedy Express shipped a total of 54 orders. 
