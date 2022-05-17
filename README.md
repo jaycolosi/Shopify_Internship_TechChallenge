@@ -20,7 +20,8 @@ FROM `shopify-internship-350418.Shopify_Internship.tech_challenge`
 ORDER BY order_amount DESC
 ```
 
-There is a range of 90-1760 which then jumps to 25725 to 704000. These outliers will have an impact on the data and will impact when calculating Average. So lets calculate the average while omitting these outliers. 
+There is a range of 90-1760 which then jumps to 25725 to 704000. These outliers will have an impact on the data and when calculating Average. So lets calculate the average while omitting these outliers. 
+
 
 ```
 SELECT 
@@ -31,7 +32,7 @@ WHERE
 -- AVG without outliers: 302.58
 ```
 
-The average now with the outliers removed is 302.58. However, using median would be a better metric for this query. By using median it will remove the extreme measurements from the set and give a more realistic amount. 
+The average with the outliers removed is 302.58. However, using median would be a better metric for this query. By using median it will remove the extreme measurements from the set and give a more realistic amount. 
 
 ```
 SELECT 
@@ -76,6 +77,7 @@ JOIN
 GROUP BY e.lastname 
 ORDER BY num_orders DESC -- order to find the employee with the most orders
 ```
+
 C. What product was ordered the most by customers in Germany?
 ANSWER. The product which was ordered the most by customers in Germany was 'Boston Crab Meat" by total quantity. Additionaly, Gorgonzola Telino was order the more times with a total of 5 orders. 
 
